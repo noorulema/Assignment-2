@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".screen25">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:id="@+id/time"
+        android:layout_height="50dp"
+        android:src="@drawable/time"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        >
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:id="@+id/battery"
+        android:layout_height="50dp"
+        android:src="@drawable/battery"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:paddingBottom="5dp"
+        >
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:id="@+id/signal"
+        android:layout_height="50dp"
+        android:src="@drawable/signal"
+        android:layout_toLeftOf="@id/battery"
+        android:layout_marginBottom="5dp"
+        >
+    </ImageView>
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:src="@drawable/network"
+        android:layout_toLeftOf="@id/signal"
+        android:layout_marginBottom="5dp"
+        >
+    </ImageView>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:id="@+id/ab"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/black"
+        android:src="@drawable/back_arrow">
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/addplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/ab"
+        android:text="Edit Profile"
+        android:textColor="#FFF"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/addplay"
+        android:text="Save"
+        android:textColor="#FFC107"
+        android:textSize="23dp">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Password"
+        android:textColor="#FFC107"
+        android:textSize="23dp">
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/upload"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Username"
+        android:textColor="#FFC107"
+        android:textSize="27dp">
+
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/upload"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/addplay"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:src="@drawable/darkcircle">
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/enter1"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/username"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/entry"
+        android:paddingStart="20dp"
+        android:paddingTop="5dp"
+        android:text="abcd@abcd.com"
+        android:textColor="#FF9800"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/enter2"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/enter1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/entry"
+        android:paddingStart="20dp"
+        android:paddingTop="5dp"
+        android:text="....."
+        android:textColor="#FF9800"
+        android:textSize="30dp">
+
+    </TextView>
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitEnd"
+        android:src="@drawable/actionbar">
+    </ImageView>
+
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/enter2"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/like1">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/enter2"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@id/like"
+        android:src="@drawable/add1">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/search"
+        android:layout_marginTop="120dp"
+        android:layout_below="@id/enter2"
+        android:layout_toRightOf="@id/add"
+        android:src="@drawable/search1">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/enter2"
+        android:id="@+id/later"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@id/search"
+        android:src="@drawable/llater"
+        android:layout_marginLeft="20dp">
+    </ImageView>
+
+
+
+</RelativeLayout>

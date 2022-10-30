@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".screen6">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/account"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        >
+    </ImageView>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:paddingBottom="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/menu"
+        android:id="@+id/menu"
+        android:scaleType="fitXY"
+        android:background="#000">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#FFF"
+        android:id="@+id/play"
+        android:text="Playlists"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/menu">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/pl1"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/play"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/playlist">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:requiresFadingEdge="horizontal"
+        android:layout_below="@id/play"
+        android:id="@+id/pl2"
+        android:layout_toRightOf="@id/pl1"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/playlist">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:requiresFadingEdge="horizontal"
+        android:layout_below="@id/play"
+        android:id="@+id/pl3"
+        android:layout_toRightOf="@id/pl2"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+
+        android:src="@drawable/playlist">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/pln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pl1"
+        android:layout_marginLeft="20dp"
+        android:text="Playlist 3"
+        android:textColor="#FF9800"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FF9800"
+        android:id="@+id/pln2"
+        android:layout_below="@id/pl2"
+        android:text="Playlist 4"
+        android:layout_toRightOf="@id/pln1"
+        android:layout_marginLeft="50dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FF9800"
+        android:layout_below="@id/pl3"
+        android:layout_toRightOf="@id/pln2"
+        android:text="Playlist 5"
+        android:id="@+id/pln3"
+        android:layout_marginLeft="50dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#FFF"
+        android:id="@+id/artist"
+        android:layout_marginTop="20dp"
+        android:text="Artists"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/pln1">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/ar1"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/artist"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/atif_aslam">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:requiresFadingEdge="horizontal"
+        android:layout_below="@id/artist"
+        android:id="@+id/ar2"
+        android:layout_toRightOf="@id/pl1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/atif_aslam">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:requiresFadingEdge="horizontal"
+        android:layout_below="@id/artist"
+        android:id="@+id/ar3"
+        android:layout_toRightOf="@id/pl2"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/atif_aslam">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FF9800"
+        android:layout_below="@id/ar1"
+        android:id="@+id/arn1"
+        android:text="Artist 3"
+        android:layout_marginLeft="20dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FF9800"
+        android:id="@+id/arn2"
+        android:layout_below="@id/ar2"
+        android:text="Artist 4"
+        android:layout_toRightOf="@id/pln1"
+        android:layout_marginLeft="50dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FF9800"
+        android:layout_below="@id/ar3"
+        android:layout_toRightOf="@id/pln2"
+        android:text="Artist 5"
+        android:id="@+id/arn3"
+        android:layout_marginLeft="50dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitEnd"
+        android:id="@+id/actionbar"
+        android:src="@drawable/actionbar">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/song"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="25dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/like"></ImageView>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/add"
+        android:layout_below="@id/song"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/like"
+        android:src="@drawable/add"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/search"
+        android:layout_below="@id/song"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/add"
+        android:src="@drawable/search"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/song"
+        android:layout_marginTop="20dp"
+        android:id="@+id/later"
+        android:layout_toRightOf="@id/search"
+        android:src="@drawable/later"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/like_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Liked"
+        android:textColor="#FFF"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/like"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Add">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/add"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Search">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/search"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Listen later">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/foward"
+        android:layout_above="@+id/actionbar"
+        android:src="@drawable/next"
+        android:paddingTop="20dp"
+        android:scaleType="fitEnd"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/playbutton"
+        android:layout_above="@+id/actionbar"
+        android:src="@drawable/play"
+        android:scaleType="fitEnd"
+        android:layout_toLeftOf="@id/foward"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="20dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/back"
+        android:layout_above="@+id/actionbar"
+        android:src="@drawable/prev"
+        android:scaleType="fitEnd"
+        android:layout_toLeftOf="@id/playbutton"
+        android:layout_marginLeft="20dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/song"
+        android:layout_above="@id/actionbar"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FF9800"
+        android:text="Song name">
+
+    </TextView>
+
+
+</RelativeLayout>

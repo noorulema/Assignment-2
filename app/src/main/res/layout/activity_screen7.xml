@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".screen7">
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="250dp"
+        android:id="@+id/icon"
+        android:layout_below="@id/byartist"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/account"></ImageView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/ab"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/black"
+        android:src="@drawable/back_arrow">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/ab"
+        android:text="Song Title"
+        android:textColor="#FFF"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/ab"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/byartist"
+        android:text="By Artist"
+        android:textColor="#FFEB3B"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/byartist"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/icon"
+        android:background="@drawable/entry_brown"
+        android:paddingStart="20dp"
+        android:paddingTop="12dp"
+        android:text="What an amazing song"
+        android:textColor="#FFF"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitEnd"
+        android:src="@drawable/actionbar"></ImageView>
+
+
+    <TextView
+        android:id="@+id/enteb"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/actionbar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/entry_brown"
+        android:text="Post a comment"
+        android:textColor="#FFF"
+        android:paddingTop="12dp"
+        android:paddingStart="20dp"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/enter"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@id/actionbar"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/enteb"
+        android:backgroundTint="#FFEB3B"
+        android:src="@drawable/enter">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/enteb"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="25dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/like"></ImageView>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/add"
+        android:layout_below="@id/enteb"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/like"
+        android:src="@drawable/add"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/search"
+        android:layout_below="@id/enteb"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/add"
+        android:src="@drawable/search"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/enteb"
+        android:layout_marginTop="20dp"
+        android:id="@+id/later"
+        android:layout_toRightOf="@id/search"
+        android:src="@drawable/later"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/like_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Liked"
+        android:textColor="#FFF"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/like"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Add">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/add"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Search">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/search"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Listen later">
+
+    </TextView>
+
+
+</RelativeLayout>

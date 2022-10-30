@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".screen10">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/ab"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/black"
+        android:src="@drawable/back_arrow">
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/addplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/ab"
+        android:text="Upload Music"
+        android:textColor="#FFF"
+        android:textSize="35dp">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/addplay"
+        android:text="Next"
+        android:textColor="#FFC107"
+        android:textSize="23dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/upload"
+        android:layout_width="300dp"
+        android:layout_height="230dp"
+        android:layout_below="@id/addplay"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/upload">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/enter1"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/upload"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/entry"
+        android:paddingStart="20dp"
+        android:paddingTop="5dp"
+        android:text="Title"
+        android:textColor="#FF9800"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/enter4"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/enter1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/entry"
+        android:paddingStart="20dp"
+        android:paddingTop="5dp"
+        android:text="Genre"
+        android:textColor="#FF9800"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/enter2"
+        android:layout_below="@id/enter4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="25dp"
+        android:paddingTop="5dp"
+        android:text="Description"
+        android:paddingStart="20dp"
+        android:textColor="#FF9800"
+        android:background="@drawable/description">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/enter3"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/enter2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/yellow"
+        android:backgroundTint="#FFC107"
+        android:text="Upload"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/enter5"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/enter2"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/yellow"
+        android:backgroundTint="#000"
+        android:text="Record"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitEnd"
+        android:src="@drawable/actionbar">
+    </ImageView>
+
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/enter3"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/like1"></ImageView>
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/enter3"
+        android:layout_toRightOf="@id/like"
+        android:background="@color/black"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/add1">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/search"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/enter3"
+        android:layout_toRightOf="@id/add"
+        android:src="@drawable/search1">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/enter3"
+        android:id="@+id/later"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/search"
+        android:src="@drawable/llater"
+        android:layout_marginLeft="20dp">
+    </ImageView>
+
+
+</RelativeLayout>

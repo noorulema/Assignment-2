@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/actionbar.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/back_arrow.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/backgroundfill.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/bigrectangle.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/buttons.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/checkbox.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/circle_yellow.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/description.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/entry.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/entry_brown.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/goldenbutton.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/hollowrectangle.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/logout.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/menu.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/namerectangle.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/play_arrow.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/record.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/rectangle.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/roundbutton.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/textrectangle.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable-v24/yellow.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/drawable/ic_launcher_background.xml" value="0.111" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen10.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen11.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen12.xml" value="0.14673913043478262" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen13.xml" value="0.18" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen14.xml" value="0.14673913043478262" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen15.xml" value="0.18" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen16.xml" value="0.14673913043478262" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen17.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen18.xml" value="0.14673913043478262" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen19.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen2.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen20.xml" value="0.14673913043478262" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen21.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen22.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen23.xml" value="0.14673913043478262" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen24.xml" value="0.14673913043478262" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen25.xml" value="0.14673913043478262" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen3.xml" value="0.1859375" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen4.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen5.xml" value="0.1859375" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen6.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen7.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen8.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/i181659_i190653/app/src/main/res/layout/activity_screen9.xml" value="0.14673913043478262" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

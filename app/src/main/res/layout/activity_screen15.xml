@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".screen15">
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Skip"
+        android:textColor="#F4C63B"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="40dp"
+        android:text="Select Playlist"
+        android:textColor="#FFF"
+        android:textSize="35dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/select"
+        android:layout_marginStart="35dp"
+        android:text="Next"
+        android:textColor="#F4C63B"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/search">
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/circle_yellow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="+"
+            android:layout_marginStart="22dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="60dp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        >
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp"
+            android:src="@drawable/squaresimple">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+
+
+
+    <ImageView
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitEnd"
+        android:src="@drawable/actionbar"></ImageView>
+
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingTop="30dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/like1"></ImageView>
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingStart="10dp"
+        android:paddingTop="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/like"
+        android:background="@color/black"
+        android:src="@drawable/add1">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingTop="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/add"
+        android:src="@drawable/search1"></ImageView>
+
+    <ImageView
+        android:id="@+id/later"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/search"
+        android:src="@drawable/llater"></ImageView>
+
+
+
+</RelativeLayout>

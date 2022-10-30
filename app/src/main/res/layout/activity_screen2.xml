@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".screen2">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="35dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo1">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/signin"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:paddingRight="10dp"
+        android:text="Sign In"
+        android:textColor="#FFF"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/entry"
+        android:gravity="center_vertical"
+        android:hint="Name"
+        android:paddingLeft="20dp"
+        android:textColor="#FFC107"
+        android:textSize="25dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/entry"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:hint="Email"
+        android:textColor="#FFC107"
+        android:textSize="25dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/entry"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:hint="Password"
+        android:textColor="#FFC107"
+        android:textSize="25dp">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Gender"
+        android:textColor="#FFC107"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/male"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/gender"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/male_icon">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/gender"
+        android:layout_toRightOf="@id/male"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/female"
+        android:src="@drawable/female_icon">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/gender"
+        android:id="@+id/pns"
+        android:layout_toRightOf="@id/female"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/prefer_not_to_say_gender">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/male"
+        android:id="@+id/tcb"
+        android:layout_toRightOf="@id/cb"
+        android:textColor="#FFF"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:text="I would like to receive your newsletter and other promotional information."
+        >
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/cb"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/male"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tcb"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/entry"
+        android:backgroundTint="#FFC107"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/signup"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+
+        >
+
+    </TextView>
+
+</RelativeLayout>
